@@ -1,0 +1,30 @@
+{
+  "name": "pdf-convert",
+  "version": "0.1.0",
+  "description": "Wrapper module for ImageMagic convert",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitvice/pdf-convert.git"
+  },
+  "keywords": [
+    "convert",
+    "pdf"
+  ],
+  "author": "Gabi Balasz <gabi@bitvice.ro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitvice/pdf-convert/issues"
+  },
+  "homepage": "https://github.com/bitvice/pdf-convert#readme",
+  "dependencies": {
+    "es6-promise": "~2.0.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.2",
+    "mocha": "~2.3.4"
+  }
+}
